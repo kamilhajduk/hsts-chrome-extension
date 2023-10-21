@@ -1,4 +1,4 @@
-# Chrome Extension: HSTS Checker
+# HSTS Checker: Chrome Extension
 
 This Chrome extension helps you check the HTTP Strict Transport Security (HSTS) headers of websites you visit. It analyzes the security headers of web requests and provides visual indicators to help you understand the security level of the current website.
 
