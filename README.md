@@ -6,11 +6,11 @@ Hover over the plugin icon for **extra information** about the website's securit
 
 ## Features
 
-✅ **Real-time HSTS Analysis**: Analyzes HTTP and HTTPS responses in real-time to check for the presence and status of HSTS headers.
+**Real-time HSTS Analysis**: Analyzes HTTP and HTTPS responses in real-time to check for the presence and status of HSTS headers.
 
-✅ **Secure Connection**: Indicates a secure connection when both HTTP and HTTPS HSTS headers are present and enabled.
+✔️ **Secure Connection**: Indicates a secure connection when both HTTP and HTTPS HSTS headers are present and enabled.
 
-🟠 **Partially Secure**: Indicates partial security when either HTTP or HTTPS HSTS header is present and enabled or when an HTTP request has not yet been analyzed.
+🔶 **Partially Secure**: Indicates partial security when either HTTP or HTTPS HSTS header is present and enabled or when an HTTP request has not yet been analyzed.
 
 🔴 **Not Secure**: Warns when neither HTTP nor HTTPS HSTS headers are enabled, highlighting potential security risks.
 
@@ -28,8 +28,8 @@ Once installed, the extension automatically checks the security headers of websi
 
 ## Icon Legend
 
-- ✅ **Secure**: Both HTTP and HTTPS HSTS headers are enabled.
-- 🟠 **Partially Secure**: Either HTTP or HTTPS HSTS header is enabled or when an HTTP request has not yet been analyzed.
+- ✔️ **Secure**: Both HTTP and HTTPS HSTS headers are enabled.
+- 🔶 **Partially Secure**: Either HTTP or HTTPS HSTS header is enabled or when an HTTP request has not yet been analyzed.
 - 🔴 **Not Secure**: Neither HTTP nor HTTPS HSTS headers are enabled.
 
 ## Support
