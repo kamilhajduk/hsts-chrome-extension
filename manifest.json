@@ -1,0 +1,26 @@
+{
+   "name": "HSTS Checker",
+   "short_name": "HSTS Checker",
+   "description": "Check for 'Strict-Transport-Security' header in HTTP & HTTPS responses",
+   "homepage_url": "https://github.com/kamilhajduk/hsts-chrome-extension",
+   "version": "1.0.0",
+   "author": "Kamil Hajduk",
+   "manifest_version": 3,
+   "minimum_chrome_version": "18",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      }
+   },
+   "icons": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+   },
+   "permissions": [ "tabs", "activeTab", "webRequest" ],
+   "host_permissions": [ "http://*/*", "https://*/*"]
+}
